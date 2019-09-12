@@ -1,3 +1,24 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Aniket Shirsat"
+author = "Aniket Shirsat"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Aniket's Mind"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "About"
+    url  = "https://github.com/an1ke7"
+[[menu.main]]
+    name = "Projects"
+    url  = "https://github.com/an1ke7"
+[[menu.main]]
+    name = "Resume"
+    url  = "https://github.com/an1ke7"
